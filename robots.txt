@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /partners.html
+Allow: /
+
+Sitemap: https://www.marketmind.in/sitemap.xml

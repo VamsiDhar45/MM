@@ -659,3 +659,18 @@ footer::before{
 [data-theme="light"] .text-red{text-shadow:0 0 12px rgba(249,115,22,0.3);}
 [data-theme="light"] .text-white{color:#0f172a;text-shadow:none;}
 [data-theme="light"] nav{background:rgba(241,245,249,0.92);}
+
+/* =========================================
+   21. UTILITIES
+   ========================================= */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
