@@ -1,0 +1,20 @@
+# AI Agent files
+.agents/
+skills-lock.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log

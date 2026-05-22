@@ -1,0 +1,85 @@
+.client-logos {
+  padding: 4rem 5%;
+  background: white;
+}
+
+.client-logos {
+  padding: 4rem 5%;
+  background: white;
+  overflow: hidden;
+}
+.logo-container {
+  width: 100%;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-track {
+  display: flex;
+  width: calc(200px * 12);
+  /* Adjust based on number of logos */
+  animation: scroll 20s linear infinite;
+}
+@media (max-width: 768px) {
+  .logo-track {
+    width: calc(150px * 12);
+  }
+
+  .logo-item {
+    width: 150px;
+  }
+
+  .logo-item img {
+    max-width: 100px;
+    max-height: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .logo-track {
+    width: calc(150px * 12);
+  }
+
+  .logo-item {
+    width: 150px;
+  }
+
+  .logo-item img {
+    max-width: 100px;
+    max-height: 60px;
+  }
+}
+.logo-item {
+  width: 200px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item img {
+  max-width: 150px;
+  max-height: 80px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.logo-item img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1b1b1b; /* darker shade */
+  font-weight: 600; /* makes text bold but elegant */
+  font-size: 1rem; /* keeps balance with logo height */
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #40e0d0; /* your brand turquoise on hover */
+}

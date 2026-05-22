@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon (1).ico">
+  <title>Market Mind India | Market Research, Strategy &amp; Digital Marketing</title>
+  <meta name="description" content="Market Mind India is your premier growth partner, offering expert market research, web development, and digital marketing solutions to elevate your brand.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <link rel="stylesheet" href="./common_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo-container">
+        <a href="index.html"><img class="logo-image" src="./assets/img/logo (11).png" alt="Market Mind India Logo"/></a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="DigitalSolutions.html" class="mobile-only">Digital Services</a>
+        <a href="Research.html" class="mobile-only">Research Services</a>
+        <div class="dropdown desktop-only">
+          <a class="dropdown-toggle">Services <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="Research.html"><i class="fas fa-chart-bar" style="width:18px;margin-right:8px;color:var(--primary-color);"></i>Research Services</a>
+            <a href="DigitalSolutions.html"><i class="fas fa-laptop-code" style="width:18px;margin-right:8px;color:var(--primary-color);"></i>Digital Services</a>
+          </div>
+        </div>
+        <a href="partners.html">Partners</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Fueling Business Growth with<br>
+          <span id="dynamic-text" class="typewriter-text text-turquoise"></span>
+        </h1>
+        <p>We are your one-stop solution for market research, digital marketing, and web development — helping brands grow smarter.</p>
+        <div class="hero-cta-group">
+          <a href="mailto:info@marketmind.in" class="cta-btn"><i class="fas fa-rocket"></i> Get Free Consultation</a>
+          <a href="About.html" class="cta-btn-outline">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="explore-orb-container">
+        <div class="explore-orb" onclick="document.querySelector('#services').scrollIntoView({behavior:'smooth'})">
+          <i class="fas fa-play"></i>
+          <span>Explore</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-us" id="about">
+    <div class="about-content">
+      <h2 class="section-title">Who We Are</h2>
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <p>Market Mind India &mdash; Your One-Stop Solution for All Your Marketing Needs.<br><br>
+            At Market Mind India, we offer a full range of marketing solutions to help businesses grow in today's competitive landscape. With over three years of industry experience, we leverage deep market insights to craft data-driven strategies. Our expertise spans market research, digital marketing, and web development.
+          </p>
+          <p>What sets us apart is our dynamic team of young, passionate marketers dedicated to delivering impactful results. We believe in creativity, innovation, and strategic execution to unlock new opportunities. At Market Mind India, your success is our priority, and we measure our growth through the achievements of our happy clients.</p>
+          <div class="about-highlights">
+            <div class="highlight" data-aos="fade-up">
+              <i class="fas fa-rocket highlight-icon"></i>
+              <h3>Strategic Innovation</h3>
+            </div>
+            <div class="highlight" data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-chart-line highlight-icon"></i>
+              <h3>Proven Results</h3>
+            </div>
+            <div class="highlight" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-handshake highlight-icon"></i>
+              <h3>Client-Centric</h3>
+            </div>
+          </div>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <img src="/assets/img/freepik__background__94562.png" alt="Market Mind India Team" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up">
+        <i class="fas fa-chart-bar service-icon"></i>
+        <h3>Market Research</h3>
+        <p>Unlock market insights with our comprehensive research methodologies and data-driven analysis that guide smarter decisions.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-laptop-code service-icon"></i>
+        <h3>Web Development</h3>
+        <p>Create stunning, responsive websites that drive engagement and convert visitors into loyal customers.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-bullhorn service-icon"></i>
+        <h3>Digital Marketing</h3>
+        <p>Boost your online presence with strategic digital marketing campaigns, SEO, and social media optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-grid">
+      <div class="stat-item" data-aos="fade-up">
+        <div class="stat-number" id="clientCount">0</div>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-number" id="projectCount">0</div>
+        <p>Projects Completed</p>
+      </div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-number" id="growthRate">0</div>
+        <p>Avg Growth Rate %</p>
+      </div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-number" id="teamSize">0</div>
+        <p>Team Members</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client logos -->
+  <section class="client-logos">
+    <h2 class="section-title">Trusted By Industry Leaders</h2>
+    <div class="logo-container">
+      <div class="logo-track"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 class="section-title">What Our Clients Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" data-aos="fade-up">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"MarketMind transformed our digital presence and delivered measurable growth within months. Truly exceptional work!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">R</div>
+          <div><strong>Rohan</strong><span>Founder</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"The team brought fresh ideas and executed flawlessly. Their research insights gave us a real competitive edge."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">K</div>
+          <div><strong>Kavya</strong><span>Marketing Lead</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Clean communication, fast delivery, and a noticeable conversion lift. Highly recommended for any growing business."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div><strong>Aarav</strong><span>Product Manager</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="contact-wrapper">
+      <h2 class="section-title">Let&rsquo;s Work Together</h2>
+      <p class="contact-tagline">Ready to grow your brand? Reach out and let our experts craft the perfect strategy for your business.</p>
+      <div class="contact-cards">
+        <a href="mailto:info@marketmind.in" class="contact-card" data-aos="fade-up">
+          <i class="fas fa-envelope"></i>
+          <h4>Email Us</h4>
+          <span>info@marketmind.in</span>
+        </a>
+        <a href="tel:+919742867655" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-phone"></i>
+          <h4>Call Us</h4>
+          <span>+91 9742867655</span>
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=WeWork+Salarpuria+Symbiosis+Bannerghatta+Road+Bengaluru" target="_blank" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-map-marker-alt"></i>
+          <h4>Visit Us</h4>
+          <span>WeWork Salarpuria Symbiosis, Bengaluru</span>
+        </a>
+      </div>
+      <div class="contact-cta">
+        <a href="mailto:info@marketmind.in" class="cta-btn"><i class="fas fa-paper-plane"></i> Send a Message</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./assets/img/logo (11).png" alt="Market Mind India" class="footer-logo">
+        <p>Your one-stop solution for market research, digital marketing, and web development in India.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61578802481452" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/market.mind.india?igsh=MWJtcXhwcWJrN2ZkbA==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/marketmindindia/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="partners.html">Partners</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="Research.html">Market Research</a></li>
+          <li><a href="DigitalSolutions.html">Digital Marketing</a></li>
+          <li><a href="DigitalSolutions.html">Web Development</a></li>
+          <li><a href="Research.html">Business Consulting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><a href="mailto:info@marketmind.in">info@marketmind.in</a></div>
+        <div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:+919742867655">+91 9742867655</a></div>
+        <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>WeWork Salarpuria Symbiosis, Bannerghatta Rd, Bengaluru</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Market Mind India. All rights reserved.</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
